@@ -12,5 +12,5 @@
 - Win10 x64
 - Linux x64
 
-二进制文件下载地址：
+## 二进制文件下载地址：  
 [https://github.com/GameBelial/ncmdump/releases](https://github.com/GameBelial/ncmdump/releases)
