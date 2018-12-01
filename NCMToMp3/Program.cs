@@ -179,6 +179,12 @@ namespace NCMToMp3
             fs.Close();
         }
 
+        /// <summary>
+        /// 使用 KEY 解密 AES 数据
+        /// </summary>
+        /// <param name="keyBytes">Key 的字节数组</param>
+        /// <param name="data">待解密的字节数组</param>
+        /// <returns>解密成功的数据</returns>
         private static byte[] DecryptAex128Ecb(byte[] keyBytes, byte[] data)
         {
             var aes = Aes.Create();
@@ -228,6 +234,13 @@ namespace NCMToMp3
             return box;
         }
 
+        /// <summary>
+        /// 从源字节组的指定偏移截取指定长度的数据，并生成新的字节数
+        /// </summary>
+        /// <param name="srcBytes">源字节组</param>
+        /// <param name="offset">偏移量</param>
+        /// <param name="length">截取的长度</param>
+        /// <returns></returns>
         private static byte[] GetBytesByOffset(byte[] srcBytes, int offset = 0,long length = 0)
         {
             if (length == 0)
@@ -242,6 +255,12 @@ namespace NCMToMp3
             return resultBytes2;
         }
 
+        /// <summary>
+        /// 根据指定的后缀名称搜索文件
+        /// </summary>
+        /// <param name="dirPath">要搜索的文件夹</param>
+        /// <param name="extensions">指定的后缀集合</param>
+        /// <returns>搜索完成的文件字典</returns>
         private static Dictionary<string, List<string>> FindFiles(string dirPath, string[] extensions)
         {
             if (extensions != null && extensions.Length != 0)
