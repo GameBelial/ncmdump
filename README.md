@@ -3,8 +3,8 @@
 
 ## 使用方法
 ```
-单个文件转换: ./NCMToMp3.exe -f "<FILENAME>"  
-指定文件夹转换： ./NCMToMo3.exe -d "<DIR>"
+单个文件转换: .\NCMToMp3.exe -f "<FILENAME>"  
+指定文件夹转换： .\NCMToMo3.exe -d "<DIR>"
 ```
 
 ## 支持的平台
