@@ -10,10 +10,10 @@
 指定文件夹转换： .\NCMToMo3.exe -d "<DIR>"
 ```
 
-## 支持的平台
-- Mac OS x64
-- Win10 x64
-- Linux x64
+## ~~支持的平台~~
+- ~~Mac OS x64~~
+- ~~Win10 x64~~
+- ~~Linux x64~~
 
-## 二进制文件下载地址：  
-[https://github.com/GameBelial/ncmdump/releases](https://github.com/GameBelial/ncmdump/releases)
+## ~~二进制文件下载地址：  ~~
+~~[https://github.com/GameBelial/ncmdump/releases](https://github.com/GameBelial/ncmdump/releases)~~
